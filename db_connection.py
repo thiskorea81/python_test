@@ -71,3 +71,4 @@ def bootstrap_admin(db: Database,
         else:
             doc["password_hash"] = admin_password_hash or ""  # 비워두고 이후 변경 강제
         users.insert_one(doc)
+
