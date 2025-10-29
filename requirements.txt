@@ -1,0 +1,6 @@
+# ==========================
+# requirements.txt (발췌)
+# ==========================
+pymongo
+pandas
+python-dotenv
